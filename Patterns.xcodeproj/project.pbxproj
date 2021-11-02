@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72047D6D272D3FED00358025 /* ProxyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72047D6C272D3FED00358025 /* ProxyViewController.swift */; };
+		72047D70272DB5D400358025 /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 72047D6F272DB5D400358025 /* MBProgressHUD */; };
+		7276BF29272C4D4C00150E3A /* CompositeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7276BF28272C4D4C00150E3A /* CompositeViewController.swift */; };
 		728F3E862726A269000CD206 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728F3E852726A269000CD206 /* AppDelegate.swift */; };
 		728F3E882726A269000CD206 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728F3E872726A269000CD206 /* SceneDelegate.swift */; };
 		728F3E8A2726A269000CD206 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728F3E892726A269000CD206 /* ViewController.swift */; };
 		728F3E8D2726A269000CD206 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728F3E8B2726A269000CD206 /* Main.storyboard */; };
 		728F3E8F2726A26B000CD206 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 728F3E8E2726A26B000CD206 /* Assets.xcassets */; };
 		728F3E922726A26B000CD206 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728F3E902726A26B000CD206 /* LaunchScreen.storyboard */; };
+		728F3E9B2726A2BC000CD206 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728F3E9A2726A2BC000CD206 /* Storage.swift */; };
+		728F3E9F2726A449000CD206 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 728F3E9E2726A449000CD206 /* SnapKit */; };
+		728F3EA12726A46D000CD206 /* ProfileCardPhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728F3EA02726A46D000CD206 /* ProfileCardPhoneView.swift */; };
+		728F3EA32726A9B3000CD206 /* AbstractUIComponentsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728F3EA22726A9B3000CD206 /* AbstractUIComponentsFactory.swift */; };
+		728F3EA52726AC2A000CD206 /* ProfileCardTabletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728F3EA42726AC2A000CD206 /* ProfileCardTabletView.swift */; };
+		728F3EA82726AD32000CD206 /* FactoryCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728F3EA72726AD32000CD206 /* FactoryCreator.swift */; };
+		728F3EAA2726AEFF000CD206 /* OptionsListPhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728F3EA92726AEFF000CD206 /* OptionsListPhoneView.swift */; };
+		728F3EAC2726AF9A000CD206 /* OptionsListTabletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728F3EAB2726AF9A000CD206 /* OptionsListTabletView.swift */; };
+		728F3EB127299E99000CD206 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728F3EB027299E99000CD206 /* SecondViewController.swift */; };
+		728F3EB3272AB855000CD206 /* PrototypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728F3EB2272AB855000CD206 /* PrototypeViewController.swift */; };
+		728F3EB5272ADA4A000CD206 /* AdapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728F3EB4272ADA4A000CD206 /* AdapterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		72047D6C272D3FED00358025 /* ProxyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyViewController.swift; sourceTree = "<group>"; };
+		7276BF28272C4D4C00150E3A /* CompositeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeViewController.swift; sourceTree = "<group>"; };
 		728F3E822726A269000CD206 /* Patterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Patterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		728F3E852726A269000CD206 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		728F3E872726A269000CD206 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +40,16 @@
 		728F3E8E2726A26B000CD206 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		728F3E912726A26B000CD206 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		728F3E932726A26B000CD206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		728F3E9A2726A2BC000CD206 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		728F3EA02726A46D000CD206 /* ProfileCardPhoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCardPhoneView.swift; sourceTree = "<group>"; };
+		728F3EA22726A9B3000CD206 /* AbstractUIComponentsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractUIComponentsFactory.swift; sourceTree = "<group>"; };
+		728F3EA42726AC2A000CD206 /* ProfileCardTabletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCardTabletView.swift; sourceTree = "<group>"; };
+		728F3EA72726AD32000CD206 /* FactoryCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryCreator.swift; sourceTree = "<group>"; };
+		728F3EA92726AEFF000CD206 /* OptionsListPhoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsListPhoneView.swift; sourceTree = "<group>"; };
+		728F3EAB2726AF9A000CD206 /* OptionsListTabletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsListTabletView.swift; sourceTree = "<group>"; };
+		728F3EB027299E99000CD206 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		728F3EB2272AB855000CD206 /* PrototypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeViewController.swift; sourceTree = "<group>"; };
+		728F3EB4272ADA4A000CD206 /* AdapterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72047D70272DB5D400358025 /* MBProgressHUD in Frameworks */,
+				728F3E9F2726A449000CD206 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +84,59 @@
 		728F3E842726A269000CD206 /* Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				728F3EAF27299E7D000CD206 /* View Controllers */,
+				728F3EA62726AD21000CD206 /* Utils */,
+				728F3E9C2726A411000CD206 /* Views */,
+				728F3E992726A2B0000CD206 /* Storage */,
 				728F3E852726A269000CD206 /* AppDelegate.swift */,
 				728F3E872726A269000CD206 /* SceneDelegate.swift */,
-				728F3E892726A269000CD206 /* ViewController.swift */,
 				728F3E8B2726A269000CD206 /* Main.storyboard */,
 				728F3E8E2726A26B000CD206 /* Assets.xcassets */,
 				728F3E902726A26B000CD206 /* LaunchScreen.storyboard */,
 				728F3E932726A26B000CD206 /* Info.plist */,
 			);
 			path = Patterns;
+			sourceTree = "<group>";
+		};
+		728F3E992726A2B0000CD206 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				728F3E9A2726A2BC000CD206 /* Storage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		728F3E9C2726A411000CD206 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				728F3EA02726A46D000CD206 /* ProfileCardPhoneView.swift */,
+				728F3EA22726A9B3000CD206 /* AbstractUIComponentsFactory.swift */,
+				728F3EA42726AC2A000CD206 /* ProfileCardTabletView.swift */,
+				728F3EA92726AEFF000CD206 /* OptionsListPhoneView.swift */,
+				728F3EAB2726AF9A000CD206 /* OptionsListTabletView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		728F3EA62726AD21000CD206 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				728F3EA72726AD32000CD206 /* FactoryCreator.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		728F3EAF27299E7D000CD206 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				728F3E892726A269000CD206 /* ViewController.swift */,
+				728F3EB027299E99000CD206 /* SecondViewController.swift */,
+				728F3EB2272AB855000CD206 /* PrototypeViewController.swift */,
+				728F3EB4272ADA4A000CD206 /* AdapterViewController.swift */,
+				7276BF28272C4D4C00150E3A /* CompositeViewController.swift */,
+				72047D6C272D3FED00358025 /* ProxyViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +155,10 @@
 			dependencies = (
 			);
 			name = Patterns;
+			packageProductDependencies = (
+				728F3E9E2726A449000CD206 /* SnapKit */,
+				72047D6F272DB5D400358025 /* MBProgressHUD */,
+			);
 			productName = Patterns;
 			productReference = 728F3E822726A269000CD206 /* Patterns.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +187,10 @@
 				Base,
 			);
 			mainGroup = 728F3E792726A269000CD206;
+			packageReferences = (
+				728F3E9D2726A449000CD206 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				72047D6E272DB5D400358025 /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
+			);
 			productRefGroup = 728F3E832726A269000CD206 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +218,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				728F3EB127299E99000CD206 /* SecondViewController.swift in Sources */,
+				72047D6D272D3FED00358025 /* ProxyViewController.swift in Sources */,
+				728F3EB3272AB855000CD206 /* PrototypeViewController.swift in Sources */,
 				728F3E8A2726A269000CD206 /* ViewController.swift in Sources */,
+				728F3E9B2726A2BC000CD206 /* Storage.swift in Sources */,
+				728F3EAA2726AEFF000CD206 /* OptionsListPhoneView.swift in Sources */,
+				728F3EA52726AC2A000CD206 /* ProfileCardTabletView.swift in Sources */,
+				728F3EA32726A9B3000CD206 /* AbstractUIComponentsFactory.swift in Sources */,
 				728F3E862726A269000CD206 /* AppDelegate.swift in Sources */,
+				7276BF29272C4D4C00150E3A /* CompositeViewController.swift in Sources */,
+				728F3EA12726A46D000CD206 /* ProfileCardPhoneView.swift in Sources */,
 				728F3E882726A269000CD206 /* SceneDelegate.swift in Sources */,
+				728F3EA82726AD32000CD206 /* FactoryCreator.swift in Sources */,
+				728F3EAC2726AF9A000CD206 /* OptionsListTabletView.swift in Sources */,
+				728F3EB5272ADA4A000CD206 /* AdapterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +452,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		72047D6E272DB5D400358025 /* XCRemoteSwiftPackageReference "MBProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jdg/MBProgressHUD";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		728F3E9D2726A449000CD206 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		72047D6F272DB5D400358025 /* MBProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72047D6E272DB5D400358025 /* XCRemoteSwiftPackageReference "MBProgressHUD" */;
+			productName = MBProgressHUD;
+		};
+		728F3E9E2726A449000CD206 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 728F3E9D2726A449000CD206 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 728F3E7A2726A269000CD206 /* Project object */;
 }

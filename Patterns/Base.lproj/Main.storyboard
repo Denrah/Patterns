@@ -8,6 +8,22 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Facade-->
+        <scene sceneID="7nU-4w-2td">
+            <objects>
+                <viewController id="VZb-al-Jqs" customClass="FacadeViewController" customModule="Patterns" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FmN-Od-6yu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="oVS-BY-50F"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Facade" id="EKg-d7-X1I"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DNy-7x-7AV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1299" y="-878"/>
+        </scene>
         <!--Prototype-->
         <scene sceneID="se2-Qh-FaW">
             <objects>
@@ -121,6 +137,7 @@
                         <segue destination="2SE-JL-Big" kind="relationship" relationship="viewControllers" id="pSl-Eu-sYZ"/>
                         <segue destination="5Ah-cM-4Bv" kind="relationship" relationship="viewControllers" id="0U1-Gn-QeS"/>
                         <segue destination="lPN-VL-zNE" kind="relationship" relationship="viewControllers" id="ArM-SG-x8q"/>
+                        <segue destination="VZb-al-Jqs" kind="relationship" relationship="viewControllers" id="eDB-3A-pgg"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qsx-hc-vrG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

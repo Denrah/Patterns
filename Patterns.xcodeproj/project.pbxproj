@@ -27,6 +27,7 @@
 		728F3EB127299E99000CD206 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728F3EB027299E99000CD206 /* SecondViewController.swift */; };
 		728F3EB3272AB855000CD206 /* PrototypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728F3EB2272AB855000CD206 /* PrototypeViewController.swift */; };
 		728F3EB5272ADA4A000CD206 /* AdapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728F3EB4272ADA4A000CD206 /* AdapterViewController.swift */; };
+		8B9ED9D8273253F80099B949 /* FacadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9ED9D7273253F80099B949 /* FacadeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		728F3EB027299E99000CD206 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		728F3EB2272AB855000CD206 /* PrototypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeViewController.swift; sourceTree = "<group>"; };
 		728F3EB4272ADA4A000CD206 /* AdapterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterViewController.swift; sourceTree = "<group>"; };
+		8B9ED9D7273253F80099B949 /* FacadeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				728F3EB4272ADA4A000CD206 /* AdapterViewController.swift */,
 				7276BF28272C4D4C00150E3A /* CompositeViewController.swift */,
 				72047D6C272D3FED00358025 /* ProxyViewController.swift */,
+				8B9ED9D7273253F80099B949 /* FacadeViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 				728F3EAA2726AEFF000CD206 /* OptionsListPhoneView.swift in Sources */,
 				728F3EA52726AC2A000CD206 /* ProfileCardTabletView.swift in Sources */,
 				728F3EA32726A9B3000CD206 /* AbstractUIComponentsFactory.swift in Sources */,
+				8B9ED9D8273253F80099B949 /* FacadeViewController.swift in Sources */,
 				728F3E862726A269000CD206 /* AppDelegate.swift in Sources */,
 				7276BF29272C4D4C00150E3A /* CompositeViewController.swift in Sources */,
 				728F3EA12726A46D000CD206 /* ProfileCardPhoneView.swift in Sources */,
